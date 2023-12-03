@@ -1,0 +1,207 @@
+.parent{
+    width: 100%;
+    height: auto;
+    background-color: rgb(239, 237, 237);
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    background-color: rgb(239, 237, 237);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* border: 2px solid red; */
+
+}
+.pic{
+    
+    margin-left: 20px;
+    /* border: 2px solid black; */
+    
+}
+.pic1{
+    
+    margin-left: 490px;
+    /* border: 2px solid black; */
+}
+.orderGray{
+    background-color:rgb(215, 215, 215);
+}
+
+.sales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    align-self: center;
+    color: orange;
+}
+/* .pic2{
+    position: relative;
+    bottom: 8px;
+    left: 20px;
+} */
+.spans{
+    display: flex;
+    flex-direction: row;
+   
+    
+    width: fit-content;
+    align-content: center;
+    justify-content: center;
+}
+
+.spans img {
+    /* border: 2px solid black; */
+}
+input{
+    width: 500px;
+    border: 1px solid gray;
+    height: 36px;
+    border-radius: 5px;
+}
+button{
+    background-color: orange;
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 2px;
+    width: 100px;
+
+}
+.header-center{
+    margin-left: 100px;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+
+}
+.logoo{
+        /* border: 2px solid black; */
+        margin-left: 50px;
+
+}
+
+.drop{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.drops{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    align-content: center;
+    justify-items: center;
+}
+
+.threeONE{
+    background-color: white;
+    /* border: 2px solid black; */
+    width:300px; 
+    border-radius: 5px;
+    height:600px;
+}
+
+.threeTWO{
+    background-color: white;
+    /* border: 2px solid red; */
+    width:900px; 
+    height:600px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;  
+    margin-top: 20px;
+}
+.lizt{
+    /* border: 3px solid blue; */
+    align-items: flex-start;
+}
+
+.lizt li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: -25px;
+    padding-left: 3px;
+   
+
+}
+
+.lizt p{
+    margin-left: 7px;
+  
+}
+
+ul{
+    list-style: none;
+}
+.bdtop{
+border-top: 1px solid gray;
+}
+.bdbm{
+    border-bottom: 1px solid gray;
+}
+
+.lizt3{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+}
+.line{
+    border-bottom: 3px solid orange;
+
+}
+
+.lizt3 li {
+      margin-right: 20px;
+}
+.clrgray{
+    color:grey;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+   border: 1px solid gray;
+   border-radius: 4px;
+   align-items: center;
+   margin-left: 10px;
+   margin-right: 10px;
+   height: fit-content;
+
+
+}
+.lizt5{
+    font-size: x-large;
+}
+
+.one3{
+    color: orange;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    height: inherit;
+   
+}
+
+.greenBtn{
+    background-color: green;
+    height: 25px;
+}
